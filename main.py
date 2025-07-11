@@ -1,3 +1,9 @@
+for b in range(21):
+    if b % 10 == 0:
+        print(b)
+        continue
+    print("the value is: ", b)
+
 var = 10
 while var > 0:
     var = var - 1
